@@ -101,6 +101,12 @@ form button:hover {
     overflow-wrap: anywhere;
 }
 
+.expense-details small {
+    display: block;
+    color: #68777b;
+    margin-top: 5px;
+}
+
 .expense-right {
     text-align: right;
     flex-shrink: 0;
@@ -118,4 +124,8 @@ form button:hover {
     margin-top: 12px;
 }
 
-
+@media (max-width: 400px) {
+    .container {
+        padding: 18px;
+    }
+}
